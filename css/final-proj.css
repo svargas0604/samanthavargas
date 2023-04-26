@@ -97,40 +97,55 @@ h5 {
     margin-bottom: 30px;
 }
 
+#exp {
+    background: rgba(181,197,215,0.7);
+    padding: 10px 20px;
+    margin: 20px 40px;
+    border: thin dotted rgb(34,53,75);
+}
+
 
 #ed {
     grid-area: ed;
     background: rgba(181,197,215,0.7);
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 40px;
+    border: thin dotted rgb(34,53,75);
 }
 
 #tmh {
     grid-area: tmh;
-    background: rgba(181,197,215,0.7);
+    background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 60px;
 }
 
 #now {
     grid-area: pn;
-    background: rgba(181,197,215,0.7);
+    background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 60px;
 }
 
 #talon {
     grid-area: talon;
-    background: rgba(181,197,215,0.7);
+    background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 60px;
 }
 
 #obj {
     grid-area:rintro;
     background: rgba(181,197,215,0.7);
     padding: 10px 20px;
-    margin: 20px;
+    margin: 20px 40px;
+    border: thin dotted rgb(34,53,75);
+}
+
+#degree {
+    background: rgba(170,187,206, 0.7);
+    padding: 10px 20px;
+    margin: 20px 60px;
 }
 
 #head3 {
