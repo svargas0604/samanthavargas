@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+body {
+    font-family: "Montserrat", "Arial", "Times New Roman", sans-serif;
+    background: rgb(218, 227,235);
+}
+
+header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "head mainnav";
+    margin: auto;
+    max-width: 960px;
+    background: rgb(181,197,215);
+    padding: 10px 20px;
+    border: thin solid rgb(34,53,75);
+}
+
+h1 {
+    grid-area: head;
+    font-size: 36px;
+    padding-top: 10px;
+    color: rgb(34,53,75);
+}
+
+h2 {
+    color: rgb(43,66,93)
+}
+
+#mainnav {
+    grid-area: mainnav;
+}
+
+#index section,
+footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas:
+    "photo content"
+    "feet feet";
+    margin: auto;
+    max-width: 960px;
+    margin-top: 40px;
+}
+
+#index aside {
+    grid-area: photo;
+}
+
+#content nav {
+    grid-area: content;
+    background: rgb(181,197,215);
+    margin: auto;
+    padding: 20px;
+    border: thin solid rgb(34,53,75);
+}
+
+#me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "head2 head2"
+    "am am";
+    margin: auto;
+    max-width: 960px;
+}
+
+#me h2 {
+    grid-area: head2;
+    padding: 10px 20px;
+}
+
+#me article {
+    grid-area: am;
+    padding: 0 20px;
+}
+
+h3 {
+    color: rgb(56,88,121);
+}
+
+h4 {
+    color: rgb(68,104,144);
+}
+
+h5 {
+    color: rgb(74,113,156);
+    font-size: 14px;
+}
+
+#resume {
+   margin: auto;
+   max-width: 960px;
+}
+
+#resume h2 {
+    margin-bottom: 30px;
+}
+
+
+#ed {
+    grid-area: ed;
+    background: rgba(181,197,215,0.9);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#tmh {
+    grid-area: tmh;
+    background: rgba(181,197,215,0.9);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#now {
+    grid-area: pn;
+    background: rgba(181,197,215,0.9);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#talon {
+    grid-area: talon;
+    background: rgba(181,197,215,0.9);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#obj {
+    grid-area:rintro;
+    background: rgba(181,197,215,0.9);
+    padding: 10px 20px;
+    margin: 20px;
+}
+
+#head3 {
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+footer {
+    grid-area: feet;
+    background: rgb(181,197,215);
+    padding: 2px 20px;
+    border: thin solid rgb(34,53,75);
+}
