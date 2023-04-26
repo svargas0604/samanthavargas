@@ -100,35 +100,35 @@ h5 {
 
 #ed {
     grid-area: ed;
-    background: rgba(181,197,215,0.9);
+    background: rgba(181,197,215,0.7);
     padding: 10px 20px;
     margin: 20px;
 }
 
 #tmh {
     grid-area: tmh;
-    background: rgba(181,197,215,0.9);
+    background: rgba(181,197,215,0.7);
     padding: 10px 20px;
     margin: 20px;
 }
 
 #now {
     grid-area: pn;
-    background: rgba(181,197,215,0.9);
+    background: rgba(181,197,215,0.7);
     padding: 10px 20px;
     margin: 20px;
 }
 
 #talon {
     grid-area: talon;
-    background: rgba(181,197,215,0.9);
+    background: rgba(181,197,215,0.7);
     padding: 10px 20px;
     margin: 20px;
 }
 
 #obj {
     grid-area:rintro;
-    background: rgba(181,197,215,0.9);
+    background: rgba(181,197,215,0.7);
     padding: 10px 20px;
     margin: 20px;
 }
