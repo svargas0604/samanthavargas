@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Nunito:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Raleway:wght@400;500;600;700&display=swap');
+
 body {
     font-family: "Montserrat", "Arial", "Times New Roman", sans-serif;
     background: rgb(218, 227,235);
@@ -21,10 +22,11 @@ h1 {
     font-size: 36px;
     padding-top: 10px;
     color: rgb(34,53,75);
+    font-family: "Raleway", "Monserrat", "Arial", "Times New Roman", sans-serif; 
 }
 
 h2 {
-    color: rgb(43,66,93)
+    color: rgb(43,66,93);
 }
 
 #mainnav {
@@ -75,6 +77,13 @@ footer {
     padding: 0 20px;
 }
 
+#hello {
+    background: rgba(181,197,215,0.7);
+    padding: 10px 20px;
+    margin: 0 40px;
+    border: thin dotted rgb(34,53,75);
+}
+
 h3 {
     color: rgb(56,88,121);
 }
@@ -89,18 +98,27 @@ h5 {
 }
 
 #resume {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas:
+    "rhead ."
+    "rintro rintro"
+    "ed ed"
+    "bloop bloop";
    margin: auto;
    max-width: 960px;
 }
 
 #resume h2 {
-    margin-bottom: 30px;
+    grid-area: rhead;
+    padding: 10px 20px;
 }
 
 #exp {
+    grid-area: bloop;
     background: rgba(181,197,215,0.7);
-    padding: 10px 20px;
-    margin: 20px 40px;
+    padding: 0 20px 10px 20px;
+    margin: 10px 50px 20px 50px;
     border: thin dotted rgb(34,53,75);
 }
 
@@ -109,26 +127,23 @@ h5 {
     grid-area: ed;
     background: rgba(181,197,215,0.7);
     padding: 10px 20px;
-    margin: 20px 40px;
+    margin: 10px 50px;
     border: thin dotted rgb(34,53,75);
 }
 
 #tmh {
-    grid-area: tmh;
     background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
     margin: 20px 60px;
 }
 
 #now {
-    grid-area: pn;
     background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
     margin: 20px 60px;
 }
 
 #talon {
-    grid-area: talon;
     background: rgba(170,187,206, 0.7);
     padding: 10px 20px;
     margin: 20px 60px;
@@ -138,7 +153,7 @@ h5 {
     grid-area:rintro;
     background: rgba(181,197,215,0.7);
     padding: 10px 20px;
-    margin: 20px 40px;
+    margin: 0 50px 10px 50px;
     border: thin dotted rgb(34,53,75);
 }
 
@@ -151,6 +166,23 @@ h5 {
 #head3 {
     margin-top: 40px;
     padding-left: 20px;
+}
+
+#pub {
+    margin: auto;
+    max-width: 960px;
+}
+
+#pub h2 {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+#pub article {
+    background: rgba(181,197,215,0.7);
+    padding: 10px 20px;
+    margin: 20px 40px;
+    border: thin dotted rgb(34,53,75);
 }
 
 footer {
