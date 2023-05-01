@@ -152,7 +152,7 @@ h5 {
 #obj {
     grid-area:rintro;
     background: rgba(181,197,215,0.7);
-    padding: 10px 20px;
+    padding: 20px 30px;
     margin: 0 50px 10px 50px;
     border: thin dotted rgb(34,53,75);
 }
@@ -191,3 +191,32 @@ footer {
     padding: 2px 20px;
     border: thin solid rgb(34,53,75);
 }
+
+#exp h3 {
+    margin: 0;
+    padding: 0;
+}
+
+#ed h3 {
+    padding: 10px;
+}
+
+a:visited {
+    color: rgb(96, 74, 114);
+}
+
+a:link {
+    color: rgb(56,88,121);
+}
+
+a:hover {
+    color: rgb(177,252,254);
+}
+
+a:active {
+    color: rgb(233,85,121);
+}
+
+
+
+
